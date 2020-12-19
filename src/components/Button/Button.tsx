@@ -9,8 +9,10 @@ const Button: React.FC<ButtonProps> = (props) => {
   const { color, onClick } = props;
 
   const handlerClick = (event: React.MouseEvent) => {
+    console.log(event);
     onClick(color);
   };
+
   return (
     <button style={{ color }} onClick={handlerClick}>
       color the button

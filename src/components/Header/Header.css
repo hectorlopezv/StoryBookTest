@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid orange;
+}
+
+.header__left > img {
+    object-fit: contain;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.header__left{
+
+}
+
+.header__right--mobile {
+    display: none;
+}
+
+.header__right > button{
+    padding: 10px;
+    margin: 10px;
+}
+
+@media(max-width: 425px){
+    .header__right{
+        display: none;
+    }
+
+    .header__right--mobile {
+        display: inline;
+    }
+}
