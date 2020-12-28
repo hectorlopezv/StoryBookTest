@@ -1,3 +1,19 @@
+#StoryBook
+actions -> emulate actions(change state)
+select -> select option
+text -> text
+watch out For:
+knoobs()
+storiesof()
+addDecorator()
+add()
+
+#Css Combinators
+> -> selects child (1 nested level)
++ -> selects only the first adjacent silbing
+~ -> select all silbing of the same level........ p ~ ul -> select every <ul> that is below <p> tag.
+https://www.w3schools.com/cssref/css_selectors.asp
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
